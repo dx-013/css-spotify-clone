@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope";
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 450px;
+}
+
+.li-logo {
+    border-bottom: 1px solid #d9dadc;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.li-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;   
+}
+
+.li-heading {
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    max-width: 100%;
+}
+
+.li-login {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding: 13px 14px 17px 14px;
+    border-radius: 40px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    background-color: #496ebe;
+}
+
+.apple {
+    background-color: #000;
+    color: #fff;
+}
+
+.apple:hover {
+    background-color: #3b3333;
+    cursor: pointer;
+}
+
+.google {
+    border: 0px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+}
+
+.google:hover {
+    background-color: #616467;
+    color: #fff;
+    cursor: pointer;
+}
+
+.li-or {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.li-form {
+    max-width: 100%;
+}
+
+.li-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-label {
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 8px;
+}
+
+.li-input {
+    padding-bottom: 18px;
+}
+
+.li-box {
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0px;
+    box-shadow: inset 0 0 0 1px #d9dadc;
+}
+
+.li-forgot {
+    margin-bottom: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    max-width: 100%;
+}
+
+.li-forgot a {
+    text-decoration: none;
+    color: #616467
+}
+
+.li-forgot a:hover {
+    color: #1db954
+}
+
+.li-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d9dadc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.circle {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+}
+
+.li-label-text {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 24px;
+    color: #616467
+}
+
+.li-button {
+    display: flex;
+    justify-content: center;
+}
+
+.li-button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 182px;
+    color: #fff;
+    background-color: #15883e;
+    border-radius: 500px;
+    padding: 12px 14px 14px 14px;
+}
+
+.li-button a:hover {
+    cursor: pointer;
+    transform: scale(1.03,1.03);
+    transition-duration: 33ms;
+    background-color: #1db954;
+}
+
+.no-account {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.li-signup {
+    border: 0px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467; 
+    cursor: pointer;   
+}
+
+.li-signup a {
+    text-decoration: none;
+    color: #616467;
+}
+
+.li-signup:hover {
+    transform: scale(1.03,1.03);
+    transition-duration: 33ms;
+}
+
+@media screen and (max-width: 767px){
+    .li-logo {
+        padding: 10px 0;
+    }
+    .li-logo img {
+        width: 125px;
+    }
+    .container {
+        max-width: 92%;
+    }
+    .li-flex {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .remember {
+        width: 100%;
+    }
+    .li-button {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .li-button a {
+        width: 100%;
+    }
+}

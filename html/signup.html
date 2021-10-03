@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="signup">
+        <div class="container">
+            <img id="su-logo" src="../assets/logo1.png" alt="logo">
+            <h2 class="su-heading">Sign up for free to start listening.</h2>
+            <div class="su-fb">
+                <span class="su-btn">Sign up with Facebook</span>
+            </div>
+            <div class="su-or">
+                <span> or </span>
+            </div>
+            <p class="su-head">Sign up with your email address</p>
+            <form action="#">
+                <div class="su-form">
+                    <div class="su-input">
+                        <label for="email" class="su-label">What's your email?</label>
+                        <input id="email" type="email" placeholder="Enter your email." class="su-box">
+                    </div>
+                    <div class="su-input">
+                        <label for="confirm" class="su-label">Confirm your email</label>
+                        <input id="confirm" type="email" placeholder="Enter your email again." class="su-box">
+                    </div>
+                    <div class="su-input">
+                        <label for="password" class="su-label">Create a password</label>
+                        <input id="password" type="password" placeholder="Create a password." class="su-box">
+                    </div>
+                    <div class="su-input">
+                        <label for="name" class="su-label">What should we call you?</label>
+                        <input id="name" type="text" placeholder="Enter a profile name." class="su-box">
+                    </div>
+                </div>
+                <p class="su-label">What's your date of birth?</p>
+                <div class="su-dob su-input">
+                    <div class="dob">
+                        <label for="month" class="su-label-dob">Month</label>
+                        <select name="month" id="month" class="su-box">
+                            <option value="">Month</option>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                    <div class="dob">
+                        <label for="day" class="su-label-dob">Day</label>
+                        <input id="day" type="number" min="1" max="31" placeholder="DD" class="su-box">
+                    </div>
+                    <div class="dob">
+                        <label for="year" class="su-label-dob">Year</label>
+                        <input id="year" type="number" min="1900" max="2008" placeholder="YYYY" class="su-box">
+                    </div>
+                </div>
+                <div class="su-input">
+                    <p class="su-label">What's your gender?</p>
+                    <input id="male" type="radio" name="gender" class="circle">
+                    <label for="male" class="su-label-text">Male</label>
+                    <input id="female" type="radio" name="gender" class="circle">
+                    <label for="female" class="su-label-text">Female</label>
+                    <input id="nonbinary" type="radio" name="gender" class="circle">
+                    <label for="nonbinary" class="su-label-text">Non-binary</label>
+                </div>
+                <div class="su-input">
+                    <input type="checkbox" id="consent" class="circle">
+                    <label for="consent" class="su-label-text">Share my registration data with Spotify's content
+                        providers for marketing
+                        purposes.</label>
+                </div>
+                <div class="su-button">
+                    <a href="#">Sign up</a>
+                </div>
+                <div class="su-login">
+                    <span>Have an account? <a href="../html/login.html">Log in</a>.</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
